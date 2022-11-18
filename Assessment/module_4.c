@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main()
+int main()
 {
        int c; // c=choice
        int q; // q=quatity
@@ -119,4 +119,5 @@ again:
        {
               printf("Enter a valid choice.");//by any chance if a customer enters wrong product number.
        }
+       return 0;
 }
