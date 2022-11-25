@@ -13,6 +13,9 @@ int main(){
              
        }
        printf("max number is %d",max);
+      
+      
+       
        
 return 0;
 }
