@@ -45,34 +45,31 @@ int main()
               }
               printf("\n");
        }
-       // int max_marks = 100;
+       int max_marks = 100;
 
-       // int temp;
-       // printf("Enter a roll no to see result");
-       // scanf("%d", &temp);
-       // for (int i = 0; i < 2; i++)
-       // {
-       //        if (student[i].roll == temp)
-       //        {
-       //               for (int j = 0; j < 2; j++)
-       //               {
-       //                      for (int k = 0; k < 2; k++)
-       //                      {
-       //                             printf("%s\t\t|\t%d\t\t|\t%d\n", student[i].subject[k], max_marks, student[i].obtain_mark[k]);
-       //                      }
-       //               }
-       //               // for (int i = 0; i < a; i++)
-       //               // {
-       //               //        // total_ob = mark[i] + total_ob;
-       //               // }
+       int temp;
+       printf("Enter a roll no to see result");
+       scanf("%d", &temp);
+       for (int i = 0; i < 2; i++)
+       {
+              if (student[i].roll == temp)
+              {
+                     for (int j = 0; j < 2; j++)
+                     {
+                            // for (int k = 0; k < 2; k++)
+                            // {
+                                   printf("%s\t\t|\t%d\t\t|\t%d\n", student[i].subject[k], max_marks, student[i].obtain_mark[k]);
+                            // }
+                     }
+                     // for (int i = 0; i < a; i++)
+                     // {
+                     //        // total_ob = mark[i] + total_ob;
+                     // }
 
-       //               break;
-       //        }
-       //        else
-       //        {
-       //               printf("Enter a valid roll number");
-       //        }
-       // }
+                    
+              }
+             
+       }
 
        return 0;
 }
